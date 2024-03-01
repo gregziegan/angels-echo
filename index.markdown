@@ -14,12 +14,12 @@ layout: default
     <div id="gallery" class="photos-grid-container gallery">
       <div>
         <div class="sub">
-          <div class="img-box"><img src="/assets/images/angels-echo-look-1.jpeg" alt="image" /></div>
-          <div class="img-box"><img src="/assets/images/angels-echo-look-2.jpeg" alt="image" /></div>
-          <div class="img-box"><img src="/assets/images/angels-echo-look-3.jpeg" alt="image" /></div>
-          <div class="img-box"><img src="/assets/images/angels-echo-look-4.jpeg" alt="image" /></div>
-          <div class="img-box"><img src="/assets/images/angels-echo-look-5.jpeg" alt="image" /></div>
-          <div class="img-box"><img src="/assets/images/angels-echo-look-6.jpeg" alt="image" /></div>
+          <div class="img-box"><img src="assets/images/angels-echo-look-1.jpeg" alt="image" /></div>
+          <div class="img-box"><img src="assets/images/angels-echo-look-2.jpeg" alt="image" /></div>
+          <div class="img-box"><img src="assets/images/angels-echo-look-3.jpeg" alt="image" /></div>
+          <div class="img-box"><img src="assets/images/angels-echo-look-4.jpeg" alt="image" /></div>
+          <div class="img-box"><img src="assets/images/angels-echo-look-5.jpeg" alt="image" /></div>
+          <div class="img-box"><img src="assets/images/angels-echo-look-6.jpeg" alt="image" /></div>
         </div>
       </div>
     </div>
