@@ -6,7 +6,7 @@ layout: default
 ---
 
 <header>
-  <h1>Responsive Image Grid with Lightbox Gallery (GLightbox)</h1>
+  <h1>Angels Echo</h1>
 </header>
 
 <main>
