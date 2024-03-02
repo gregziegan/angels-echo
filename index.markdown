@@ -9,13 +9,24 @@ layout: default
 <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
 <label for="drawer-toggle" id="drawer-toggle-label"></label>
 <header><img src="assets/images/logo.svg" alt="logo" id="logo"/></header>
+<!-- <div id="banner-container"><img src="assets/images/banner.png" alt="banner" id="banner"/></div> -->
 <div id="page">
 <nav id="drawer">
-  <ul>
-    <li><a href="https://www.instagram.com/angels__echo/" target="_blank">Instagram</a></li>
-    <li>Next show</li>
-    <li>Email</li>
-  </ul>
+  <p> CURRENT SHOW</p>
+  <br/>
+<p>RANDOM SAMPLE /</p>
+  <p>NASHVILLE</p>
+  <p>RANDOM SAMPLE /</p>
+  <p>NASHVILLE</p>
+  <p>RANDOM SAMPLE /</p>
+  <p>NASHVILLE</p>
+  <p>RANDOM SAMPLE /</p>
+  <p>NASHVILLE</p>
+  <p>RANDOM SAMPLE /</p>
+  <p>NASHVILLE</p>
+  <div id="footer">
+    <p><span><a href="https://www.instagram.com/angels__echo/" target="_blank">SOCIAL</a></span> <span><a href="mailto:taradugger12@gmail.com" target="_blank">INQUIRY</a></span></p>
+  </div>
 </nav>
 <div id="page-content">
   <div class="container">
@@ -31,7 +42,3 @@ layout: default
 </div>
 </div>
 </body>
-
-<footer>
-  <p><span>SOCIAL</span> <span>INQUIRY</span></p>
-</footer>
