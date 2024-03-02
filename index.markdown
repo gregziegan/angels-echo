@@ -8,7 +8,8 @@ layout: default
 <body>
 <input type="checkbox" id="drawer-toggle" name="drawer-toggle"/>
 <label for="drawer-toggle" id="drawer-toggle-label"></label>
-<header>Angel's Echo</header>
+<header><img src="assets/images/logo.svg" alt="logo" id="logo"/></header>
+<div id="page">
 <nav id="drawer">
   <ul>
     <li><a href="https://www.instagram.com/angels__echo/" target="_blank">Instagram</a></li>
@@ -28,8 +29,9 @@ layout: default
     </div>
   </div>
 </div>
+</div>
 </body>
 
-<!-- <footer>
-  <p>Angel's Echo</p>
-</footer> -->
+<footer>
+  <p><span>SOCIAL</span> <span>INQUIRY</span></p>
+</footer>
