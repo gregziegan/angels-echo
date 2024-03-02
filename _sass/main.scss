@@ -91,7 +91,9 @@ body {
 
 }
 
-@media screen and (max-width: 800px) {
+// mobile
+/* 1170×2532 pixels at 460ppi */
+@media only screen and (width: 390px) and (height: 844px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
     /* gets the actual input out of the way; 
     we're going to style the label instead */
 
@@ -144,7 +146,7 @@ body {
         width: 33%;
         margin-left: auto;
         margin-right: auto;
-        padding-top: 10px;
+        padding: 20px 0px;
     }
 
     /* drawer menu pane - note the 0px width */
@@ -157,7 +159,7 @@ body {
         width: 225px;
         overflow-x: hidden;
         overflow-y: scroll;
-        padding: 20px;
+        padding: 60px 20px;
         -webkit-overflow-scrolling: touch;
     }
 
@@ -165,7 +167,7 @@ body {
 
     #page-content {
         margin-left: 0px;
-        margin-top: 50px;
+        // margin-top: 50px;
         width: 100%;
         height: calc(100% - 50px);
         overflow-x: hidden;
@@ -193,6 +195,10 @@ body {
 
     #drawer-toggle:checked~#page>#page-content {
         margin-left: 225px;
+    }
+
+    #drawer-toggle:checked~header>#logo {
+        margin-left: 10px;
     }
 
     /* Responsive MQ */
@@ -229,6 +235,7 @@ body {
     // div.content {margin-left: 0;}
 }
 
+// desktop
 @media screen and (min-width: 800px) {
     // #drawer {
     //     text-align: center;
@@ -236,10 +243,10 @@ body {
     // }
 
     #page {
+        height: 100%;
         padding: 20px;
         display: grid;
-        grid-template-columns: 1fr 2fr;
-        height: 100%;
+        grid-template-columns: 1fr 3fr;
     }
 
     // header {
@@ -293,11 +300,11 @@ body {
         -webkit-overflow-scrolling: touch;
         padding: 20px;
     }
+}
 
-    #footer {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        padding: 20px;
-    }
+#footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
 }
